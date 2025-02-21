@@ -1,6 +1,6 @@
 import math
 
-
+"""
 print("<<============ WK.1.1.1 ============>>")
 print(type(3.14).__name__)
 print(type(-34))
@@ -59,3 +59,32 @@ expressions = [
 ]
 
 mixed_type_expressions(expressions)
+"""
+
+
+print("<<============ WK.1.2.1 ============>>")
+a = 3
+a + 2.0
+# the value will be 5.0 and the type is float
+
+a = a + 1.0
+a
+# the value will be 4.0 and the type is float
+
+# b
+# not defined | error
+
+a == 5.0
+# The value will be False and the type is boolean.
+
+a
+# The value will be 4.0 and the type is float.
+
+b = 10
+# The value will be 10 and the type is int.
+
+c = b > 9
+# The value will be True and the type is boolean.
+
+c
+# The value will be True and the type is boolean.
