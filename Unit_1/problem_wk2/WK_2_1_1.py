@@ -37,3 +37,34 @@ def e(x, y, z):
 def f(x, y):
     return x + y - 2
 # The type of the output would be num | float | int
+
+
+"""
+Part 2: Transcript
+Below is a transcript of a session with the Python shell. Assume the functions from part
+1 have been defined. Provide the type and value of the expressions being evaluated. If
+evaluating an expression would cause an error, select noneType and write error in the
+box. If the value of an expression is a function, select function as the type and write
+function in the box. 
+"""
+
+a(6)
+# The output is `7` and it's type is `int || num`
+
+a(-5.3)
+# The output is `-4.3` and it's type is `float || num`
+
+a(a(a(6)))
+# The output is `9` and it's type is `int || num`
+
+c(a(1), b(1))
+# The output is `4.0` and it's type is `float || num`
+
+d(10, 11.1)
+# The output is `False` and it's type is `boolean`
+
+e(a(3), b(4), c(3, 4))
+# The output is `False` and it's type is `boolean`
+
+e
+# Type function
