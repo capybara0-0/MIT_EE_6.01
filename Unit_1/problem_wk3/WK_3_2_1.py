@@ -8,9 +8,9 @@ Your function should have type(num, positiveInt) -> num
 
 
 def multIA(m: float | int, n: int) -> float | int:
-    count = 1
+    count = 0
     result = 0
-    while count <= n:
+    while count < n:
         result += m
         count += 1
     return result
